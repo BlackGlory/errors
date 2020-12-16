@@ -1,11 +1,11 @@
-# types
+# errors
 
-Common types and type guards without magic
+Common errors.
 
 ## Install
 
 ```sh
-npm install --save @blackglory/types
+npm install --save @blackglory/errors
 # or
-yarn add @blackglory/types
+yarn add @blackglory/errors
 ```
