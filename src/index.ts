@@ -1,4 +1,4 @@
-export type CustomErrorConstructor<T extends CustomError> = new (message?: string) => T
+export type CustomErrorConstructor<T extends CustomError = CustomError> = new (message?: string) => T
 
 export class CustomError extends Error {
   get name() {
