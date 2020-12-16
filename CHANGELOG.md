@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/BlackGlory/errors/compare/v0.1.1...v0.1.2) (2020-12-16)
+
+
+### Features
+
+* add default value ([39bf8a0](https://github.com/BlackGlory/errors/commit/39bf8a01f7bbfd88346f092495d15a8ee90f878e))
+
 ### [0.1.1](https://github.com/BlackGlory/errors/compare/v0.1.0...v0.1.1) (2020-12-16)
 
 
