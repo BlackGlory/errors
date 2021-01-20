@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.4](https://github.com/BlackGlory/errors/compare/v0.1.3...v0.1.4) (2021-01-20)
+
+
+### Bug Fixes
+
+* bundle ([3ecc3d7](https://github.com/BlackGlory/errors/commit/3ecc3d72b3a3e6b8b4113365a89eea1e37c0394c))
+
 ### [0.1.3](https://github.com/BlackGlory/errors/compare/v0.1.2...v0.1.3) (2021-01-04)
 
 
