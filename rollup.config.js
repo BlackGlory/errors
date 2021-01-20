@@ -3,20 +3,35 @@ import { terser } from 'rollup-plugin-terser'
 
 const UMD_NAME = 'Errors'
 
+export default [
+  ...createOptions({
+    directory: 'es2015'
+  , target: 'ES2015'
+  })
+, ...createOptions({
+    directory: 'es2018'
+  , target: 'ES2018'
+  })
+]
+
 function createOptions({ directory, target }) {
+  const commonPlugins = [
+    typescript({ target })
+  ]
+
   return [
     {
       input: 'src/index.ts'
     , output: createOutput('index')
     , plugins: [
-        typescript({ target })
+        ...commonPlugins
       ]
     }
   , {
       input: 'src/index.ts'
     , output: createMinification('index')
     , plugins: [
-        typescript({ target })
+        ...commonPlugins
       , terser()
       ]
     }
