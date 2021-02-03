@@ -1,18 +1,18 @@
 import { CustomError } from '@src/custom-error'
-import { ExpectedError } from '@src/expected-error'
+import { AssertionError } from '@src/assertion-error'
 
-describe('ExpectedError', () => {
+describe('AssertionError', () => {
   it('instanceof CustomError', () => {
-    const err = new ExpectedError()
+    const err = new AssertionError()
 
     expect(err).toBeInstanceOf(CustomError)
   })
 
   it('prop name return the name of constructor', () => {
     const message = 'message'
-    class UserError extends ExpectedError {}
+    class UserError extends AssertionError {}
 
-    const err = new UserError('message')
+    const err = new UserError(message)
 
     expect(err.name).toBe('UserError')
     expect(err.message).toBe(message)
