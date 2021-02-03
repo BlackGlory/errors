@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.5](https://github.com/BlackGlory/errors/compare/v0.1.4...v0.1.5) (2021-02-03)
+
+
+### Features
+
+* add normalize ([425774f](https://github.com/BlackGlory/errors/commit/425774fd777100773b9209d8d15176ce0c018202))
+
 ### [0.1.4](https://github.com/BlackGlory/errors/compare/v0.1.3...v0.1.4) (2021-01-20)
 
 
