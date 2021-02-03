@@ -1,7 +1,7 @@
 {
   "name": "@blackglory/errors",
-  "version": "0.1.5",
-  "description": "Custom errors",
+  "version": "1.0.0",
+  "description": "Common errors",
   "files": [
     "lib",
     "dist"

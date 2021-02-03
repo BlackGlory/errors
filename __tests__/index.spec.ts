@@ -3,6 +3,7 @@ import * as index from '@src/index'
 test('index', () => {
   const expected = [
     'CustomError'
+  , 'ExpectedError'
 
   , 'normalize'
   ].sort()

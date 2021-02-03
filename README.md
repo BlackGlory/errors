@@ -27,8 +27,13 @@ interface SerializableError {
 ### CustomError
 
 ```ts
-
 class CustomError extends Error {}
+```
+
+### ExpectedError
+
+```ts
+class ExpectedError extends CustomError {}
 ```
 
 ### normalize
