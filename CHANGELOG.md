@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/BlackGlory/errors/compare/v1.0.0...v1.1.0) (2021-02-03)
+
+
+### Features
+
+* add assert, refute, AssertionError ([52baf47](https://github.com/BlackGlory/errors/commit/52baf47a708514b4028354f9b25e307d3b81416f))
+
 ## [1.0.0](https://github.com/BlackGlory/errors/compare/v0.1.5...v1.0.0) (2021-02-03)
 
 
