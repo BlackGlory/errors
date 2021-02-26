@@ -6,7 +6,7 @@ describe('normalize(err: Error): SerializableError', () => {
 
     const result = normalize(err)
 
-    expect(result).toMatchObject({
+    expect(result).toEqual({
       name: 'Error'
     , message: 'test'
     , stack: expect.stringContaining('\n')
