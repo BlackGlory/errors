@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/BlackGlory/errors/compare/v1.1.2...v2.0.0) (2022-01-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* - Remove `refute`, `ExpectedError`
+
+### Features
+
+* the parameter message is now required ([51d9350](https://github.com/BlackGlory/errors/commit/51d93502c3624470ef34bee96a3264f0ed95d003))
+
 ### [1.1.2](https://github.com/BlackGlory/errors/compare/v1.1.1...v1.1.2) (2021-02-04)
 
 
