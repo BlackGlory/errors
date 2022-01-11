@@ -3,11 +3,9 @@ import * as index from '@src/index'
 test('index', () => {
   const expected = [
     'CustomError'
-  , 'ExpectedError'
   , 'AssertionError'
 
   , 'normalize'
-  , 'refute'
   , 'assert'
   ].sort()
 

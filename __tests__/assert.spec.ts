@@ -8,7 +8,7 @@ describe('assert(condition: unknown, message?: string): asserts condition', () =
     it('pass', () => {
       const val: number | null = null
 
-      assert(val === null)
+      assert(val === null, 'The val should be null')
 
       expectType<null>(val)
     })
