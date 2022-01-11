@@ -40,25 +40,25 @@
     "node": ">=12"
   },
   "devDependencies": {
-    "@commitlint/cli": "^15.0.0",
-    "@commitlint/config-conventional": "^15.0.0",
+    "@commitlint/cli": "^16.0.2",
+    "@commitlint/config-conventional": "^16.0.0",
     "@rollup/plugin-typescript": "^8.3.0",
-    "@types/jest": "^27.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.4.0",
-    "@typescript-eslint/parser": "^5.4.0",
-    "eslint": "^8.2.0",
+    "@types/jest": "^27.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.1",
+    "@typescript-eslint/parser": "^5.9.1",
+    "eslint": "^8.6.0",
     "husky": "^4.3.8",
-    "jest": "^27.3.1",
+    "jest": "^27.4.7",
     "npm-run-all": "^4.1.5",
-    "return-style": "^0.12.4",
+    "return-style": "^0.12.6",
     "rimraf": "^3.0.2",
-    "rollup": "^2.60.0",
+    "rollup": "^2.63.0",
     "rollup-plugin-terser": "^7.0.2",
     "standard-version": "^9.3.2",
     "ts-jest": "^27.0.7",
     "tscpaths": "^0.0.9",
-    "tsd": "^0.19.0",
+    "tsd": "^0.19.1",
     "tslib": "^2.3.1",
-    "typescript": "^4.5.2"
+    "typescript": "^4.5.4"
   }
 }
