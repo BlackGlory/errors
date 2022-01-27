@@ -6,7 +6,11 @@ test('index', () => {
   , 'AssertionError'
 
   , 'normalize'
+  , 'isSerializableError'
   , 'assert'
+
+  , 'getErrorNames'
+  , 'traverseErrorPrototypeChain'
   ].sort()
 
   const result = Object.keys(index).sort()

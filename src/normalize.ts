@@ -1,12 +1,12 @@
-export interface SerializableError {
-  name: string
-  message: string
-  stack: string | null
-}
+import { getErrorNames } from './get-error-names'
+import { toArray } from 'iterable-operator'
+import { SerializableError } from './serializable-error'
 
 export function normalize(err: Error): SerializableError {
+  const [name, ...ancestors] = toArray(getErrorNames(err))
   return {
-    name: err.name
+    name
+  , ancestors
   , message: err.message
   , stack: err.stack ?? null
   }
