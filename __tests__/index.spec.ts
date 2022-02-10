@@ -6,6 +6,7 @@ test('index', () => {
   , 'AssertionError'
 
   , 'normalize'
+  , 'hydrate'
   , 'isSerializableError'
   , 'assert'
 

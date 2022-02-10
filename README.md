@@ -40,6 +40,11 @@ class AssertionError extends CustomError {}
 function normalize(err: Error): SerializableError
 ```
 
+### hydrate
+```ts
+function hydrate(err: SerializableError): Error
+```
+
 ### isSerializableError
 ```ts
 function isSerializableError(val: unknown): val is SerializableError
