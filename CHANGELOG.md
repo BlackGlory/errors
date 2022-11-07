@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/BlackGlory/errors/compare/v2.2.3...v2.3.0) (2022-11-07)
+
+
+### Features
+
+* add `isError`, `isntError` ([258c467](https://github.com/BlackGlory/errors/commit/258c4677037413e7f589fc7d3a0c33b7e09c7efd))
+
+
+### Bug Fixes
+
+* dependencies ([c3f3251](https://github.com/BlackGlory/errors/commit/c3f325174983e951b53e64f89ecf2d48ea714be7))
+
 ### [2.2.3](https://github.com/BlackGlory/errors/compare/v2.2.2...v2.2.3) (2022-10-24)
 
 ### [2.2.2](https://github.com/BlackGlory/errors/compare/v2.2.1...v2.2.2) (2022-08-01)
