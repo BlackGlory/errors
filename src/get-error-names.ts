@@ -1,5 +1,5 @@
 import { SerializableError } from './serializable-error'
-import { isError } from '@blackglory/types'
+import { isError } from './is-error'
 import { traverseErrorPrototypeChain } from './traverse-error-prototype-chain'
 
 export function* getErrorNames(err: Error | SerializableError): Iterable<string> {

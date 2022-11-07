@@ -1,6 +1,6 @@
 import { first, toArray } from 'iterable-operator'
 import { getErrorNames } from './get-error-names'
-import { isError } from '@blackglory/types'
+import { isError } from './is-error'
 import { isSerializableError } from './serializable-error'
 
 export type CustomErrorConstructor<T extends CustomError = CustomError> =

@@ -35,6 +35,12 @@ class CustomError extends Error {}
 class AssertionError extends CustomError {}
 ```
 
+### isError
+```ts
+function isError(val: unknown): val is Error
+function isntError<T>(val: T): val is Exclude<T, Error>
+```
+
 ### normalize
 ```ts
 function normalize(err: Error): SerializableError

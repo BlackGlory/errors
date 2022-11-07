@@ -9,6 +9,8 @@ test('index', () => {
   , 'hydrate'
   , 'isSerializableError'
   , 'assert'
+  , 'isError'
+  , 'isntError'
 
   , 'getErrorNames'
   , 'traverseErrorPrototypeChain'
