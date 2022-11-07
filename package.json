@@ -66,6 +66,7 @@
   },
   "dependencies": {
     "@blackglory/pass": "^1.1.0",
+    "@blackglory/types": "^1.4.0",
     "iterable-operator": "^2.1.0"
   }
 }
