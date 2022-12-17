@@ -2,7 +2,6 @@ import { CustomError } from '@src/custom-error'
 import { getErrorNames } from '@src/get-error-names'
 import { toArray } from 'iterable-operator'
 import { SerializableError } from '@src/serializable-error'
-import '@blackglory/jest-matchers'
 
 describe('getErrorNames', () => {
   test('SerializedErrorl', () => {
@@ -16,7 +15,6 @@ describe('getErrorNames', () => {
     const iter = getErrorNames(err)
     const result = toArray(iter)
 
-    expect(iter).toBeIterable()
     expect(result).toStrictEqual([
       'UserError'
     , 'Error'
@@ -29,7 +27,6 @@ describe('getErrorNames', () => {
     const iter = getErrorNames(err)
     const result = toArray(iter)
 
-    expect(iter).toBeIterable()
     expect(result).toStrictEqual([
       'Error'
     ])
@@ -41,7 +38,6 @@ describe('getErrorNames', () => {
     const iter = getErrorNames(err)
     const result = toArray(iter)
 
-    expect(iter).toBeIterable()
     expect(result).toStrictEqual([
       'CustomError'
     , 'Error'
@@ -54,7 +50,6 @@ describe('getErrorNames', () => {
     const iter = getErrorNames(err)
     const result = toArray(iter)
 
-    expect(iter).toBeIterable()
     expect(result).toStrictEqual([
       'TypeError'
     , 'Error'
@@ -68,7 +63,6 @@ describe('getErrorNames', () => {
     const iter = getErrorNames(err)
     const result = toArray(iter)
 
-    expect(iter).toBeIterable()
     expect(result).toStrictEqual([
       'UserError'
     , 'Error'
@@ -82,7 +76,6 @@ describe('getErrorNames', () => {
     const iter = getErrorNames(err)
     const result = toArray(iter)
 
-    expect(iter).toBeIterable()
     expect(result).toStrictEqual([
       'ExtendsCustomError'
     , 'CustomError'
@@ -98,7 +91,6 @@ describe('getErrorNames', () => {
     const iter = getErrorNames(err)
     const result = toArray(iter)
 
-    expect(iter).toBeIterable()
     expect(result).toStrictEqual([
       'ExtendsExtendsCustomError'
     , 'ExtendsCustomError'
