@@ -61,7 +61,7 @@ function isSerializableError(val: unknown): val is SerializableError
 /**
  * @throws {AssertionError}
  */
-function assert(condition: unknown, message: string): asserts condition
+function assert(condition: unknown, message?: string): asserts condition
 ```
 
 ### getErrorNames
