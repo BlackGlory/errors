@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/BlackGlory/errors/compare/v2.3.0...v2.4.0) (2022-12-18)
+
+
+### Features
+
+* add default value for `assert` ([6349c14](https://github.com/BlackGlory/errors/commit/6349c14babc50eb897143b642487cd83ed774c61))
+
 ## [2.3.0](https://github.com/BlackGlory/errors/compare/v2.2.3...v2.3.0) (2022-11-07)
 
 
