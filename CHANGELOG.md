@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.3](https://github.com/BlackGlory/errors/compare/v2.4.2...v2.4.3) (2023-01-21)
+
+
+### Bug Fixes
+
+* remove iterable-operator dependency ([ab7106d](https://github.com/BlackGlory/errors/commit/ab7106df76ccfb51dba5f67a2e3808d6878ea870))
+* remove iterable-operator dependency ([857f19f](https://github.com/BlackGlory/errors/commit/857f19fdcf34177930214533771fe5fa2ee3640b))
+
 ### [2.4.2](https://github.com/BlackGlory/errors/compare/v2.4.1...v2.4.2) (2023-01-21)
 
 ### [2.4.1](https://github.com/BlackGlory/errors/compare/v2.4.0...v2.4.1) (2022-12-18)
