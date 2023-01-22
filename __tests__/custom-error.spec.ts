@@ -1,5 +1,5 @@
-import { CustomError } from '@src/custom-error'
-import { SerializableError } from '@src/serializable-error'
+import { CustomError } from '@src/custom-error.js'
+import { SerializableError } from '@src/serializable-error.js'
 
 describe('CustomError', () => {
   describe('instanceof', () => {

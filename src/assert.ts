@@ -1,4 +1,4 @@
-import { AssertionError } from './assertion-error'
+import { AssertionError } from './assertion-error.js'
 
 /**
  * @throws {AssertionError}

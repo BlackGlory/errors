@@ -1,5 +1,5 @@
-import { assert } from '@src/assert'
-import { AssertionError } from '@src/assertion-error'
+import { assert } from '@src/assert.js'
+import { AssertionError } from '@src/assertion-error.js'
 import { expectType } from 'tsd'
 import { getError } from 'return-style'
 

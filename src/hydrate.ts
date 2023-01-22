@@ -1,4 +1,4 @@
-import { SerializableError } from './serializable-error'
+import { SerializableError } from './serializable-error.js'
 import { pass } from '@blackglory/pass'
 
 export function hydrate(err: SerializableError): Error {

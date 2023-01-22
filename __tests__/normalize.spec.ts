@@ -1,5 +1,5 @@
-import { normalize } from '@src/normalize'
-import { CustomError } from '@src/custom-error'
+import { normalize } from '@src/normalize.js'
+import { CustomError } from '@src/custom-error.js'
 
 describe('normalize(err: Error): SerializableError', () => {
   test('Error', () => {

@@ -1,5 +1,5 @@
-import { CustomError } from '@src/custom-error'
-import { AssertionError } from '@src/assertion-error'
+import { CustomError } from '@src/custom-error.js'
+import { AssertionError } from '@src/assertion-error.js'
 
 describe('AssertionError', () => {
   it('instanceof CustomError', () => {

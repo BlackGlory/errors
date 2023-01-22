@@ -1,7 +1,7 @@
-import { CustomError } from '@src/custom-error'
-import { getErrorNames } from '@src/get-error-names'
+import { CustomError } from '@src/custom-error.js'
+import { getErrorNames } from '@src/get-error-names.js'
 import { toArray } from 'iterable-operator'
-import { SerializableError } from '@src/serializable-error'
+import { SerializableError } from '@src/serializable-error.js'
 
 describe('getErrorNames', () => {
   test('SerializedErrorl', () => {

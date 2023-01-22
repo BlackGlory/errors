@@ -1,6 +1,6 @@
-import { SerializableError } from './serializable-error'
-import { isError } from './is-error'
-import { traverseErrorPrototypeChain } from './traverse-error-prototype-chain'
+import { SerializableError } from './serializable-error.js'
+import { isError } from './is-error.js'
+import { traverseErrorPrototypeChain } from './traverse-error-prototype-chain.js'
 
 export function* getErrorNames(err: Error | SerializableError): Iterable<string> {
   if (isError(err)) {

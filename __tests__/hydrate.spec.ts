@@ -1,6 +1,6 @@
-import { hydrate } from '@src/hydrate'
-import { normalize } from '@src/normalize'
-import { CustomError } from '@src/custom-error'
+import { hydrate } from '@src/hydrate.js'
+import { normalize } from '@src/normalize.js'
+import { CustomError } from '@src/custom-error.js'
 
 test('hydrate', () => {
   class TestError extends CustomError {}

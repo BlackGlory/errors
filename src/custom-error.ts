@@ -1,7 +1,7 @@
-import { getErrorNames } from './get-error-names'
-import { isError } from './is-error'
-import { isSerializableError } from './serializable-error'
-import { first, toArray } from './utils'
+import { getErrorNames } from './get-error-names.js'
+import { isError } from './is-error.js'
+import { isSerializableError } from './serializable-error.js'
+import { first, toArray } from './utils.js'
 
 export type CustomErrorConstructor<T extends CustomError = CustomError> =
   new (message?: string) => T

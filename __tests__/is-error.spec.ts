@@ -1,4 +1,4 @@
-import { isError, isntError } from '@src/is-error'
+import { isError, isntError } from '@src/is-error.js'
 
 describe('isError', () => {
   test('non-error', () => {
