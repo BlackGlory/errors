@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/BlackGlory/errors/compare/v3.0.0...v3.0.1) (2023-04-05)
+
+
+### Bug Fixes
+
+* add missing dependencies ([c62f767](https://github.com/BlackGlory/errors/commit/c62f76759c3c50abb1324651b13251711ffeb6d7))
+
 ## [3.0.0](https://github.com/BlackGlory/errors/compare/v2.4.3...v3.0.0) (2023-01-22)
 
 
