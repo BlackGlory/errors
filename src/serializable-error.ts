@@ -1,4 +1,4 @@
-import { isObject, isString, isArray, isNull } from '@blackglory/types'
+import { isObject, isString, isArray, isNull } from 'extra-utils'
 
 export interface SerializableError {
   name: string

@@ -2721,10 +2721,10 @@ extra-utils@^3.0.0, extra-utils@^3.3.0, extra-utils@^3.4.0, extra-utils@^3.5.1:
     justypes "^3.1.2"
     lodash "^4.17.21"
 
-extra-utils@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/extra-utils/-/extra-utils-5.0.1.tgz#f55a0bf1d13fea69efe7ef347d9279e2cea89d92"
-  integrity sha512-JWUo2COzPQ4iAb0w47OR/0+fVH+UXplQI55sXtaPCJBK2of75//oBs/hGwu0y0h/VyNpys7WSJR+02aA60Pc8w==
+extra-utils@^5.1.1:
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/extra-utils/-/extra-utils-5.1.1.tgz#604dac5551ca80d0edf9ef8bbc15d17c08088b6b"
+  integrity sha512-5Bog1r7c7Kj0UynIz2UlCb66741OcMHwBZYe87/YekDwE8e+9z0f2dzyqEaVxpykVQy8GcgGmsENZmH5K7pCfg==
   dependencies:
     justypes "^4.1.0"
     lodash-es "^4.17.21"
