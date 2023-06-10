@@ -3,7 +3,8 @@
   "version": "3.0.2",
   "description": "Common errors",
   "files": [
-    "lib"
+    "lib",
+    "src"
   ],
   "type": "module",
   "main": "lib/index.js",
