@@ -4,6 +4,9 @@ import { traverseErrorPrototypeChain } from './traverse-error-prototype-chain.js
 
 export function* getErrorNames(err: Error | SerializableError): Iterable<string> {
   if (isError(err)) {
+    // 实例的name属性不具有参考价值, 因为它很可能不会被赋值.
+    // 在不被赋值的情况下, 访问name属性只会得到"Error".
+
     for (const prototype of traverseErrorPrototypeChain(err)) {
       // 一些错误实现的原型可能不具有constructor成员
       if (prototype.constructor?.name) {
