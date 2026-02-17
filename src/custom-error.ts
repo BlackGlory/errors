@@ -16,10 +16,13 @@ export class CustomError extends Error {
   static [Symbol.hasInstance](instance: unknown): boolean {
     if (isError(instance) || isSerializableError(instance)) {
       const reversedClassNames: string[] = [
-        this.prototype.constructor.name ?? this.name
-      , ...getErrorNames(this.prototype) 
+        // 一些错误实现的原型可能不具有constructor, 在没有类名时用实例名替代.
+        this.prototype.constructor?.name ?? this.name
+      , ...getErrorNames(this.prototype)
       ].reverse()
-      const reversedInstanceNames = toArray(getErrorNames(instance)).reverse()
+      const reversedInstanceNames = toArray(
+        getErrorNames(instance)
+      ).reverse()
 
       return reversedClassNames.every((x, i) => x === reversedInstanceNames[i])
     } else {
