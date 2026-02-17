@@ -16,7 +16,8 @@ export class CustomError extends Error {
   static [Symbol.hasInstance](instance: unknown): boolean {
     if (isError(instance) || isSerializableError(instance)) {
       const reversedClassNames: string[] = [
-        // 一些错误实现的原型可能不具有constructor, 在没有类名时用实例名替代.
+        // `this.prototype.constructor`为调用类的构造函数.
+        // 在原型实现错误的情况下, 可能不具有constructor成员, 此时尝试通过`this.name`来代替.
         this.prototype.constructor?.name ?? this.name
       , ...getErrorNames(this.prototype)
       ].reverse()

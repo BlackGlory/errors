@@ -1,6 +1,7 @@
 import { SerializableError } from './serializable-error.js'
 import { isError } from './is-error.js'
 import { traverseErrorPrototypeChain } from './traverse-error-prototype-chain.js'
+import { isntUndefined } from 'extra-utils'
 
 export function* getErrorNames(err: Error | SerializableError): Iterable<string> {
   if (isError(err)) {
@@ -8,8 +9,8 @@ export function* getErrorNames(err: Error | SerializableError): Iterable<string>
     // 在不被赋值的情况下, 访问name属性只会得到"Error".
 
     for (const prototype of traverseErrorPrototypeChain(err)) {
-      // 一些错误实现的原型可能不具有constructor成员
-      if (prototype.constructor?.name) {
+      // 一些错误实现的原型可能不具有constructor成员, 只能选择跳过.
+      if (isntUndefined(prototype.constructor?.name)) {
         yield prototype.constructor.name
       }
     }
