@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/BlackGlory/errors/compare/v3.0.3...v3.1.0) (2026-02-17)
+
+
+### Features
+
+* improve robustness ([365d6fa](https://github.com/BlackGlory/errors/commit/365d6fa7010d065edcdd2f00ac5f98325595c40e))
+
 ### [3.0.3](https://github.com/BlackGlory/errors/compare/v3.0.2...v3.0.3) (2023-06-10)
 
 
